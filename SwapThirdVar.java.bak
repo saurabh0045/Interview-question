@@ -1,0 +1,14 @@
+class SwapThirdVar 
+{
+	public static void main(String[] args) 
+	{
+		int a=56, b=45;
+		int t=0;
+		a=t;
+		a=b;
+		b=t;
+		System.out.println("a:"+a);
+		System.out.println("b:"+b);
+
+	}
+}
